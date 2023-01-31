@@ -1,0 +1,24 @@
+set autoindent
+set shiftwidth=2
+set tabstop=2
+
+set number
+
+set ruler
+
+set extended
+set magic
+
+set searchincr
+
+set expandtab
+set showmatch
+set showmode
+
+set bserase
+
+set windowname
+
+set cedit=
+
+map  f ::!env FZF_DEFAULT_COMMAND='git ls-files' fzf >> %:editGIEdit :bg
