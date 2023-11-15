@@ -1,0 +1,18 @@
+font:
+  size: 14.0
+window:
+  padding:
+    x: 8
+    y: 4
+  decorations: full
+  option_as_alt: OnlyLeft
+scrolling:
+  history: 10000
+  multiplier: 3
+  auto_scroll: false
+draw_bold_text_with_bright_colors: true
+use_thin_strokes: true
+
+import:
+ - ~/.config/alacritty/themes/themes/github_dark_high_contrast.yaml
+#macbook settings
